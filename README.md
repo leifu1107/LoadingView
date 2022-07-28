@@ -4,10 +4,12 @@
 
 # 基本使用
 
-  loadingView = new LoadingDialog.Builder(this)
+```java
+loadingView = new LoadingDialog.Builder(this)
                     .setMessage("加载中...")
                     .setCancelable(true)
                     .setCancelOutside(true)
-                    .create();
+                    .create(); 
 
-            loadingView.show();
+loadingView.show();
+```
